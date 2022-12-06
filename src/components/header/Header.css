@@ -32,3 +32,30 @@ a > span:hover {
     font-size: 2rem;
 }
 
+.social-container {
+    padding: 25px 50px;
+  }
+
+  a.social {
+    margin: 0 0.5rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+
+
+  a.facebook {
+    color: #1c58da;
+  }
+ 
+  
+  a.instagram {
+    color: rgb(238, 12, 12);
+  }
+
+  a.twitter {
+    color: #49a1eb;
+  }
